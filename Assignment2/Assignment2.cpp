@@ -2,6 +2,7 @@
 // C++ Assignment 2
 
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -35,4 +36,6 @@ int main()
 {
     //one liner, for the win
     DisplayArea(CalculateArea(GetLengthFromUser(), GetWidthFromUser()));
+    (void)_getch();
+    return 0;
 }
